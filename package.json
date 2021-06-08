@@ -1,0 +1,29 @@
+{
+	"name": "netlify-plugin-contextual-file",
+	"version": "0.0.1",
+	"description": "A Netlify Build Plugin to append to or replace a file based on the branch name or context",
+	"main": "src/index",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jheung/netlify-plugin-contextual-file"
+	},
+	"homepage": "https://github.com/jheung/netlify-plugin-contextual-file#readme",
+	"bugs": {
+		"url": "https://github.com/jheung/netlify-plugin-contextual-file/issues"
+	},
+	"author": "Jason Heung",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"netlify",
+		"netlify-plugin",
+		"context"
+	],
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"files": [
+		"manifest.yml",
+		"src"
+	]
+}

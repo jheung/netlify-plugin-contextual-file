@@ -1,0 +1,20 @@
+name: netlify-plugin-contextual-file
+inputs:
+  - name: target
+    description: Filename to target - (e.g., netlify.toml or _redirects)
+    default: _redirects
+  - name: target_path
+    description: Path to the directory of the target file. Defaults to your site's publish directory
+    default: 
+  - name: strategy
+    description: Append to or replace the target file (append or replace)
+    default: append
+  - name: contexts
+    description: An array of contexts / branch names that the plugin will search for source files with. (e.g., ['production','branch-deploy','develop'])
+    default: ["production", "deploy-preview", "branch-deploy"]
+  - name: source_prefix
+    description: Prefix used to find source files matching the build context / branch name (e.g., _redirects_production)
+    default: _redirects_
+  - name: source_path
+    description: Path to the directory containing the source files. Defaults to your site's publish directory
+    default:

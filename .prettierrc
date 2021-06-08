@@ -1,0 +1,11 @@
+{
+	"useTabs": true,
+	"tabWidth": 2,
+	"jsxBracketSameLine": true,
+	"singleQuote": false,
+	"arrowParens": "avoid",
+	"object-curly-spacing": ["error", "always"],
+	"array-bracket-spacing": ["error", "always"],
+	"computed-property-spacing": ["error", "always"],
+	"endOfLine": "auto"
+}
